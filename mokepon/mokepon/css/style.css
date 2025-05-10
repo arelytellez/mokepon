@@ -1,0 +1,105 @@
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #333;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+/* Sección de selección de mascota */
+#seleccionar-mascota {
+    background-color: #ffffffcc;
+    border: 2px solid #888;
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#seleccionar-mascota h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 12px 0 6px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4facfe;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #00f2fe;
+    transform: translateY(-2px);
+}
+
+/* Sección de ataques */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Sección de mensajes */
+#mensajes {
+    background-color: #ffffffdd;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de reinicio */
+#reiniciar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    background-color: #333;
+    color: #f1f1f1;
+    font-size: 0.9em;
+    border-top: 3px solid #4facfe;
+}
+
